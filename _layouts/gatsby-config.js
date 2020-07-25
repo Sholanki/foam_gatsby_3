@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: `/foam-gatsby-template`,
+  pathPrefix: ``,
   siteMetadata: {
     title: `Foam`,
   },
@@ -14,6 +14,7 @@ module.exports = {
           "**/.git/**",
           "**/.github/**",
           "**/.vscode/**",
+          "**/netlify.toml/**",
         ],
       },
     },
